@@ -9,9 +9,9 @@ jobs:
 
     steps:
 
-    - name:checkout files
+    - name: checkout files
       uses: actions/checkout@v7
-      
+
     - name: Set up Python 3.11
       uses: actions/setup-python@v5
       with:
